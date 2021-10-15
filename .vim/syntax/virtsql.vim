@@ -2,6 +2,8 @@ source $VIMRUNTIME/syntax/sql.vim
 unlet b:current_syntax
 syntax include @SQL $VIMRUNTIME/syntax/sql.vim
 
+runtime source syntax/bif.vim
+
 syn keyword sqlSpecial   null
 
 syn keyword sqlKeyword  authorization check cursor go indicator language precision procedure  primary key foreign
