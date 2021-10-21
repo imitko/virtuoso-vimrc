@@ -25,3 +25,4 @@ au! BufNewFile,BufRead *.logiql set filetype=logiql
 au! BufNewFile,BufRead *.lb set filetype=logiql
 au! BufNewFile,BufRead *.lbset set filetype=logiql
 au! BufNewFile,BufRead *.logicset set filetype=logiql
+au! BufNewFile,BufRead *.sparql set filetype=sparql
