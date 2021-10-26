@@ -73,6 +73,7 @@ no ,gf $T y$:if isdirectory("<C-R>"")<CR>:cd <C-R>"<CR>:bd<CR>:norm ,dir<CR>else
 "kill trailing space
 "au BufWrite *.c,*.cpp,*.html,*.vsp,*.php,*.awk,*.h,*.l,*.y,*.sql,*.xsl,*.vspx,*.xsd %subst/\s\+$//e
 "au BufWrite *.sql,*.xsl,*.vspx,*.xsd,*.logic %subst/\s\+$//e
+map <F4> :%subst/\s\+$//e
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 se cinoptions=t0,{0.5s,n-0.5s,^-0.5s,(1s,u0.5s,e-0.5s
