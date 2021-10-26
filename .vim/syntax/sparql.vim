@@ -8,19 +8,23 @@
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
+
+
+"syntax include @SQL $VIMRUNTIME/syntax/sql.vim
 if version < 600
   syntax clear
 elseif exists("b:current_syntax")
   finish
 endif
 
+
 " A.3 Keywords are matched in a case-insensitive manner. (only keywords)
 syntax case ignore
-syntax keyword sqlKeyword SPARQL
+syntax keyword Special SPARQL
 syntax keyword rqKeyword BASE PREFIX SELECT DISTINCT CONSTRUCT DESCRIBE ASK FROM NAMED WHERE ORDER BY ASC DESC LIMIT OFFSET OPTIONAL GRAPH FILTER REGEX
-syntax keyword rqKeyword INSERT WITH DATA CLEAR
-syntax case match
+syntax keyword rqKeyword INSERT INTO WITH DATA CLEAR
 " case sensitive: 
+syntax case match
 syntax keyword rqRdfType a
 syntax keyword rqBuiltinCall STR LANG LANGMATCHES DATATYPE BOUND isIRI isURI isBLANK isLITERAL 
 syntax keyword rqBoolean true false 
@@ -53,8 +57,8 @@ syntax match rqVar /[?$]\{1\}\(\w\|\\U\x\{8\}\|\\u\x\{4\}\)\+/ contains=rqCodepo
 
 
 
-highlight link rqKeyword Keyword 
-highlight link rqBuiltinCall Keyword
+highlight link rqKeyword Type
+highlight link rqBuiltinCall Identifier
 highlight link rqVar Identifier 
 highlight link rqStringSingle String 
 highlight link rqStringLongSingle String 
@@ -85,5 +89,6 @@ if version >= 508 || !exists("did_sparql_syn_inits")
   delcommand HiLink
 endif
 
+"runtime source syntax/virtsql.vim
 let b:current_syntax = "sparql"
 

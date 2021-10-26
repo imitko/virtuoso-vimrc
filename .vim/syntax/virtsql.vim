@@ -11,6 +11,7 @@ syn keyword sqlKeyword  contiguous object_id under clustered  replacing soft bef
 syn keyword sqlKeyword  references schema work instead trigger referencing old method
 syn keyword sqlKeyword  contiguous object_id under clustered  replacing soft out inout in returns do exclusive 
 syn keyword sqlKeyword  prefetch found revoke password collate incremental nonincremental snapshot case when then end xml temporary constructor attribute
+syn keyword sqlKeyword  sparql
 
 syn keyword sqlStatement attach close continue fetch foreach goto open whenever purge
 syn keyword sqlStatement shutdown checkpoint backup replication sync disconnect rename 

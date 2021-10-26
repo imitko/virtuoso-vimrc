@@ -80,7 +80,7 @@ highlight Normal         guifg=White  guibg=black
 highlight Comment        term=bold  ctermfg=darkcyan guifg=darkcyan
 highlight Constant       term=underline  ctermfg=Yellow  guifg=darkcyan
 highlight Special        term=bold  ctermfg=blue  guifg=blue
-highlight Identifier     term=underline  ctermfg=lightcyan  guifg=lightcyan
+highlight Identifier     term=underline  ctermfg=lightcyan  guifg=lightblue
 highlight Statement      term=bold  ctermfg=white  gui=bold  guifg=White
 highlight PreProc        term=underline  ctermfg=green  guifg=lightgreen
 highlight Type           term=underline  ctermfg=darkgreen  gui=bold  guifg=magenta
