@@ -86,7 +86,8 @@ highlight PreProc        term=underline  ctermfg=green  guifg=lightgreen
 highlight Type           term=underline  ctermfg=darkgreen  gui=bold  guifg=magenta
 highlight Error          term=reverse  ctermfg=lightred  ctermbg=black  guifg=lightred  guibg=Black
 highlight Todo           term=standout  ctermfg=red  ctermbg=black  guifg=lightred  guibg=Black
-highlight Delme           term=standout  ctermfg=red  ctermbg=black  guifg=lightred  guibg=Black
+highlight Delme          term=standout  ctermfg=red  ctermbg=black  guifg=lightred  guibg=Black
+highlight VirtType       term=underline  ctermfg=cyan  guifg=lightgreen
 highlight link IncSearch       Visual
 highlight link String          Constant
 highlight link Character       Constant
@@ -94,6 +95,8 @@ highlight link Number          Constant
 highlight link Boolean         Constant
 highlight link Float           Number
 highlight link Function        Identifier
+highlight link cIdentifier     Identifier
+highlight link cVirtType       cType
 highlight link Conditional     Statement
 highlight link Repeat          Statement
 highlight link Label           Statement
