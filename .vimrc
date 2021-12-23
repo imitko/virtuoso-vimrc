@@ -33,6 +33,8 @@ nmap <F12> :cn
 nmap <F9> :if has("syntax_items")<CR>syntax off<CR>else<CR>syntax on<CR>endif<CR><CR>
 map <F5> maH:let x="Shown: lines ".line(".")<CR>L:let x=x." - ".line(".")<CR>:echo x<CR>`a
 nmap <F8> /^\([[:space:]]*\)dbg_
+nmap <F6> :set spell spelllang=en_us
+" set nospell
 
 nmap :W :w
 nmap :Q :q
