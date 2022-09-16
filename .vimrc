@@ -6,6 +6,7 @@ set shell=bash
 set showmatch
 set showmode
 set showcmd
+"set modeline 
 
 "" mapping some keys on my keyboard
 map <ESC>[2~ i
@@ -64,8 +65,6 @@ au BufNewFile,BufReadPost .followup,snd.*,.letter,.article,.article.[0-9]\+,pico
 au BufNewFile,BufReadPost .followup so $VIMRUNTIME/syntax/mail.vim
 
 "" TABs are needed in Makefiles
-au BufNewFile,BufReadPost Makefile se noexpandtab
-
 
 " always show commands that are not yet typed in completely
 se showcmd
@@ -77,7 +76,12 @@ no ,gf $T y$:if isdirectory("<C-R>"")<CR>:cd <C-R>"<CR>:bd<CR>:norm ,dir<CR>else
 "au BufWrite *.c,*.cpp,*.html,*.vsp,*.php,*.awk,*.h,*.l,*.y,*.sql,*.xsl,*.vspx,*.xsd %subst/\s\+$//e
 "au BufWrite *.sql,*.xsl,*.vspx,*.xsd,*.logic %subst/\s\+$//e
 map <F4> :%subst/\s\+$//e
+
+"se noexpandtab
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+au BufNewFile,BufReadPost Makefile se noexpandtab
+au BufNewFile,BufReadPost GNUmakefile se noexpandtab
+
 
 se cinoptions=t0,{0.5s,n-0.5s,^-0.5s,(1s,u0.5s,e-0.5s
 

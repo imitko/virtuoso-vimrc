@@ -1438,6 +1438,7 @@ syn keyword Identifier xenc_x509_csr_generate
 syn keyword Identifier xenc_x509_from_csr
 syn keyword Identifier xenc_pkcs12_export
 syn keyword Identifier xenc_pem_export
+syn keyword Identifier xenc_key_pem_import
 syn keyword Identifier xenc_pubkey_pem_export
 syn keyword Identifier xenc_pubkey_DER_export
 syn keyword Identifier xenc_pubkey_magic_export
@@ -1572,3 +1573,14 @@ syn keyword Identifier rowvector_obj_sort
 syn keyword Identifier rowvector_graph_sort
 syn keyword Identifier rowgvector_subj_sort
 syn keyword Identifier rowvector_graph_partition
+syn keyword Identifier gql_doc
+syn keyword Identifier gql_frag_ref
+syn keyword Identifier gql_frag
+syn keyword Identifier gql_var
+syn keyword Identifier gql_top
+syn keyword Identifier gql_args
+syn keyword Identifier gql_expression
+syn keyword Identifier gql_field
+syn keyword Identifier gql_obj
+syn keyword Identifier gql_inline_frag
+syn keyword Identifier gql_directives
