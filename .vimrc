@@ -7,6 +7,7 @@ set showmatch
 set showmode
 set showcmd
 "set modeline 
+let g:ctags_regenerate=0 
 
 "" mapping some keys on my keyboard
 map <ESC>[2~ i

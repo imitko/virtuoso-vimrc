@@ -1,6 +1,7 @@
 syn keyword Identifier tp_enlist
 syn keyword Identifier virt_tp_update_cli_001
 syn keyword Identifier __mts_fail_after_prepare
+syn keyword Identifier http_client_session_cached
 syn keyword Identifier get_rec_xid_beg
 syn keyword Identifier get_rec_xid
 syn keyword Identifier get_rec_xid_end
@@ -811,6 +812,7 @@ syn keyword Identifier iri_cache_clear
 syn keyword Identifier uriqa_dynamic_local_set
 syn keyword Identifier uriqa_iri_is_local
 syn keyword Identifier uriqa_dynamic_local_replace
+syn keyword Identifier uriqa_http_local_replace
 syn keyword Identifier turtle_lex_test
 syn keyword Identifier rdf_init_thread
 syn keyword Identifier rdf_inf_dir
@@ -1584,3 +1586,10 @@ syn keyword Identifier gql_field
 syn keyword Identifier gql_obj
 syn keyword Identifier gql_inline_frag
 syn keyword Identifier gql_directives
+syn keyword Identifier gqt_is_obj
+syn keyword Identifier gqt_is_list
+syn keyword Identifier gqt_is_scalar
+syn keyword Identifier gqt_not_null
+syn keyword Identifier user_to_uid
+syn keyword Identifier uid_to_user
+syn keyword Identifier http_request_status_code_get
