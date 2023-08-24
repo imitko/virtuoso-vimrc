@@ -1595,3 +1595,4 @@ syn keyword Identifier uid_to_user
 syn keyword Identifier http_request_status_code_get
 syn keyword Identifier procedure_params
 syn keyword Identifier string_split
+syn keyword Identifier json_box_object
