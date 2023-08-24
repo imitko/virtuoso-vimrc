@@ -1593,3 +1593,5 @@ syn keyword Identifier gqt_not_null
 syn keyword Identifier user_to_uid
 syn keyword Identifier uid_to_user
 syn keyword Identifier http_request_status_code_get
+syn keyword Identifier procedure_params
+syn keyword Identifier string_split

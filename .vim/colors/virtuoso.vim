@@ -71,7 +71,7 @@ highlight ModeMsg        term=bold  gui=bold  guifg=darkgreen  guibg=black
 highlight LineNr         term=underline  ctermfg=darkcyan  guifg=darkcyan
 highlight Question       term=standout  ctermfg=white  gui=bold  guifg=white
 highlight StatusLine     term=bold,reverse  ctermfg=black ctermbg=white gui=bold guifg=black guibg=White
-highlight StatusLineNC   term=reverse  ctermfg=black ctermbg=lightgray guifg=balck guibg=lightgray
+highlight StatusLineNC   term=reverse  ctermfg=black ctermbg=lightgray guifg=black guibg=lightgray
 highlight Title          term=bold  cterm=bold  ctermfg=white  gui=bold  guifg=white
 highlight Visual         term=reverse  cterm=reverse  gui=reverse
 highlight WarningMsg     term=standout  cterm=bold  ctermfg=red  guifg=Red
