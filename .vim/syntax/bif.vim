@@ -542,6 +542,8 @@ syn keyword Identifier http_request_status
 syn keyword Identifier http_request_status_get
 syn keyword Identifier encode_base64url
 syn keyword Identifier decode_base64url
+syn keyword Identifier encode_base64
+syn keyword Identifier decode_base64
 syn keyword Identifier http_root
 syn keyword Identifier dav_root
 syn keyword Identifier http_path
@@ -1596,3 +1598,6 @@ syn keyword Identifier http_request_status_code_get
 syn keyword Identifier procedure_params
 syn keyword Identifier string_split
 syn keyword Identifier json_box_object
+syn keyword Identifier pbkdf2_hmac
+syn keyword Identifier encode_base58
+syn keyword Identifier xenc_digest

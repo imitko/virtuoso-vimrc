@@ -6,7 +6,7 @@ set shell=bash
 set showmatch
 set showmode
 set showcmd
-"set modeline 
+set modelines=1
 let g:ctags_regenerate=0 
 
 "" mapping some keys on my keyboard
@@ -105,3 +105,4 @@ syntax on
 colorscheme virtuoso
 set encoding=utf-8
 set fileencoding=utf-8
+let ctags_statusline=1
